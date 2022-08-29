@@ -1,0 +1,117 @@
+/* font-family: 'Open Sans',
+sans-serif;
+font-family: 'Poppins',
+sans-serif; */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body,
+header,
+main,
+footer{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.max-width-stackable{
+    max-width: 500px;
+    padding: 20px;
+}
+.max-width-nonstackable{
+    max-width: 1000px;
+    padding: 20px;
+}
+nav.max-height-nav{
+    max-height: 44px;
+    min-height: 44px;
+    padding: 0;
+    margin: 20px;
+}
+.coloured-bg{
+    min-width: 100%;
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+}
+.bgImg{
+    height: auto;
+    min-width: 100%;
+    max-width: 100%;
+}
+.layout-bg{
+    background-color: hsl(207, 100%, 98%);
+}
+.attribution{
+    margin: 0;
+}
+/* removing everything from ul and li */
+ul,
+li{
+    -webkit-padding-start: 0;
+    list-style: none;
+    margin: none;
+    padding: none;
+    border: none;
+}
+/* img suto scale while maintaining svg ratio */
+img{
+    max-height: auto;
+    max-width: 100%;
+    padding: auto;
+}
+
+/* headings font size and type */
+
+.headingsFont{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* font for the rest of the body  */
+.bodyFont400{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/* font colours  */
+.whiteFont{
+    color: white;
+}
+.pinkFont{
+    color: hsl(322, 100%, 66%);
+}
+.lightPinkFont{
+    color: hsl(321, 100%, 78%);
+}
+/* interactive links and buttons layouts and active states  */
+.pill{
+    font-size: 0.75em;
+    padding: 1.25em 3em;
+    border-radius: 2rem;
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    font-weight: 600;
+}
+.invertedPill {
+    font-size: 0.75em;
+    padding: 0.25em 1.5em;
+    border-radius: 1em;
+    border: 2px solid hsl(322, 100%, 66%) ;
+    background-color: none;
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(322, 100%, 66%);
+}
+.boton {
+    font-size: 0.75em;
+    padding: 0.25em 3em;
+    border-radius: 0.5rem;
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    font-weight: 600;
+}
