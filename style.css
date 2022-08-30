@@ -172,3 +172,8 @@ img{
     background-color: hsl(321, 100%, 78%);
     color: white;
 }
+@media screen and (min-width: 576px){
+    .bodyFont400{
+        text-align: start;
+    }
+}
